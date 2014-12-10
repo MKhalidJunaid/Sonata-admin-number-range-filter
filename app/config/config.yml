@@ -1,0 +1,11 @@
+imports:
+    - { resource: parameters.yml }
+    - { resource: security.yml }
+    - { resource: @AcmeDemoBundle/Resources/config/filter_services.yml }
+
+twig:
+    debug:            "%kernel.debug%"
+    strict_variables: "%kernel.debug%"
+    form:
+        resources:
+            - 'AcmeDemoBundle:Form:fields.html.twig'
