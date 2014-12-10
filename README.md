@@ -10,7 +10,6 @@ Add 2 services
 
     acme.admin.form.type.number_range:
         class: %acme.admin.form.number_range%
-        arguments: [ '@service_container'  ]
         tags:
             - { name: form.type, alias: acme_admin_type_number_range }
 2) For filter type

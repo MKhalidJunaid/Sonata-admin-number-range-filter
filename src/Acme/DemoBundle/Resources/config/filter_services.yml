@@ -3,11 +3,12 @@ parameters:
     acme.admin.form.number_range: Acme\DemoBundle\Form\NumberRangeType
 
 services:
+#Filter service
     acme.admin.filter.type.number_range:
         class: %acme.admin.filter.number_range%
         tags:
             - { name: sonata.admin.filter.type, alias: doctrine_orm_number_range }
-
+#Form service
     acme.admin.form.type.number_range:
         class: %acme.admin.form.number_range%
         tags:
