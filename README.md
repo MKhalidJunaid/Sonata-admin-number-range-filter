@@ -1,4 +1,4 @@
-sonata-admin-number-range-filter
+Sonata Admin Number Range Filter
 ================================
 
 Sonata Admin Number Range Filter
